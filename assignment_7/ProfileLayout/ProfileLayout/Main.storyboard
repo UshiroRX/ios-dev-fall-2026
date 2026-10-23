@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProfileLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avt-Vw-000">
+                                <rect key="frame" x="148.5" y="83" width="96" height="96"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="AB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avt-Lb-001">
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="96"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                        <color key="textColor" red="0.212" green="0.204" blue="0.639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.902" green="0.898" blue="0.969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="avt-Cw-001"/>
+                                    <constraint firstAttribute="height" constant="96" id="avt-Ch-001"/>
+                                    <constraint firstItem="avt-Lb-001" firstAttribute="top" secondItem="avt-Vw-000" secondAttribute="top" id="avt-C1"/>
+                                    <constraint firstItem="avt-Lb-001" firstAttribute="leading" secondItem="avt-Vw-000" secondAttribute="leading" id="avt-C2"/>
+                                    <constraint firstAttribute="trailing" secondItem="avt-Lb-001" secondAttribute="trailing" id="avt-C3"/>
+                                    <constraint firstAttribute="bottom" secondItem="avt-Lb-001" secondAttribute="bottom" id="avt-C4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="48"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Aigerim Bekova" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nam-Lb-002">
+                                <rect key="frame" x="16" y="195" width="361" height="28.666666666666668"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="0.11" green="0.11" blue="0.118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="iOS Developer · Almaty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sub-Lb-003">
+                                <rect key="frame" x="16" y="227.66666666666666" width="361" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.43" green="0.43" blue="0.45" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sts-Vw-004">
+                                <rect key="frame" x="16" y="269.66666666666669" width="361" height="75"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="col-Vw-005">
+                                        <rect key="frame" x="0" y="0" width="120.33333333333333" height="75"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="128" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pst-Lb-006">
+                                                <rect key="frame" x="42.5" y="16" width="35.333333333333336" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.11" green="0.11" blue="0.118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Posts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pst-Cp-007">
+                                                <rect key="frame" x="42.166666666666664" y="42" width="36" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.43" green="0.43" blue="0.45" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="pst-Lb-006" firstAttribute="top" secondItem="col-Vw-005" secondAttribute="top" constant="16" id="c05-01-top"/>
+                                            <constraint firstItem="pst-Lb-006" firstAttribute="centerX" secondItem="col-Vw-005" secondAttribute="centerX" id="c05-02-cnx"/>
+                                            <constraint firstItem="pst-Cp-007" firstAttribute="top" secondItem="pst-Lb-006" secondAttribute="bottom" constant="2" id="c05-03-top"/>
+                                            <constraint firstItem="pst-Cp-007" firstAttribute="centerX" secondItem="col-Vw-005" secondAttribute="centerX" id="c05-04-cnx"/>
+                                            <constraint firstAttribute="bottom" secondItem="pst-Cp-007" secondAttribute="bottom" constant="16" id="c05-05-btm"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="col-Vw-008">
+                                        <rect key="frame" x="120.33333333333334" y="0" width="120.33333333333333" height="75"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="4.2K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fol-Lb-009">
+                                                <rect key="frame" x="37.833333333333336" y="16" width="44.666666666666664" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.11" green="0.11" blue="0.118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Followers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fol-Cp-010">
+                                                <rect key="frame" x="29.5" y="42" width="61.333333333333336" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.43" green="0.43" blue="0.45" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="fol-Lb-009" firstAttribute="top" secondItem="col-Vw-008" secondAttribute="top" constant="16" id="c08-01-top"/>
+                                            <constraint firstItem="fol-Lb-009" firstAttribute="centerX" secondItem="col-Vw-008" secondAttribute="centerX" id="c08-02-cnx"/>
+                                            <constraint firstItem="fol-Cp-010" firstAttribute="top" secondItem="fol-Lb-009" secondAttribute="bottom" constant="2" id="c08-03-top"/>
+                                            <constraint firstItem="fol-Cp-010" firstAttribute="centerX" secondItem="col-Vw-008" secondAttribute="centerX" id="c08-04-cnx"/>
+                                            <constraint firstAttribute="bottom" secondItem="fol-Cp-010" secondAttribute="bottom" constant="16" id="c08-05-btm"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="col-Vw-011">
+                                        <rect key="frame" x="240.66666666666669" y="0" width="120.33333333333331" height="75"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="312" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwg-Lb-012">
+                                                <rect key="frame" x="42.833333333333336" y="16" width="34.666666666666664" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.11" green="0.11" blue="0.118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Following" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwg-Cp-013">
+                                                <rect key="frame" x="29.5" y="42" width="61.333333333333336" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.43" green="0.43" blue="0.45" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="fwg-Lb-012" firstAttribute="top" secondItem="col-Vw-011" secondAttribute="top" constant="16" id="c11-01-top"/>
+                                            <constraint firstItem="fwg-Lb-012" firstAttribute="centerX" secondItem="col-Vw-011" secondAttribute="centerX" id="c11-02-cnx"/>
+                                            <constraint firstItem="fwg-Cp-013" firstAttribute="top" secondItem="fwg-Lb-012" secondAttribute="bottom" constant="2" id="c11-03-top"/>
+                                            <constraint firstItem="fwg-Cp-013" firstAttribute="centerX" secondItem="col-Vw-011" secondAttribute="centerX" id="c11-04-cnx"/>
+                                            <constraint firstAttribute="bottom" secondItem="fwg-Cp-013" secondAttribute="bottom" constant="16" id="c11-05-btm"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="div-Vw-014">
+                                        <rect key="frame" x="119.83333333333333" y="16" width="1" height="43"/>
+                                        <color key="backgroundColor" red="0.898" green="0.898" blue="0.918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="div-Cw-014"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="div-Vw-015">
+                                        <rect key="frame" x="240.16666666666669" y="16" width="1" height="43"/>
+                                        <color key="backgroundColor" red="0.898" green="0.898" blue="0.918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="div-Cw-015"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="col-Vw-005" firstAttribute="leading" secondItem="sts-Vw-004" secondAttribute="leading" id="c04-01"/>
+                                    <constraint firstItem="col-Vw-005" firstAttribute="top" secondItem="sts-Vw-004" secondAttribute="top" id="c04-02"/>
+                                    <constraint firstAttribute="bottom" secondItem="col-Vw-005" secondAttribute="bottom" id="c04-03"/>
+                                    <constraint firstItem="col-Vw-008" firstAttribute="leading" secondItem="col-Vw-005" secondAttribute="trailing" id="c04-04"/>
+                                    <constraint firstItem="col-Vw-008" firstAttribute="top" secondItem="sts-Vw-004" secondAttribute="top" id="c04-05"/>
+                                    <constraint firstAttribute="bottom" secondItem="col-Vw-008" secondAttribute="bottom" id="c04-06"/>
+                                    <constraint firstItem="col-Vw-011" firstAttribute="leading" secondItem="col-Vw-008" secondAttribute="trailing" id="c04-07"/>
+                                    <constraint firstAttribute="trailing" secondItem="col-Vw-011" secondAttribute="trailing" id="c04-08"/>
+                                    <constraint firstItem="col-Vw-011" firstAttribute="top" secondItem="sts-Vw-004" secondAttribute="top" id="c04-09"/>
+                                    <constraint firstAttribute="bottom" secondItem="col-Vw-011" secondAttribute="bottom" id="c04-10"/>
+                                    <constraint firstItem="col-Vw-008" firstAttribute="width" secondItem="col-Vw-005" secondAttribute="width" id="c04-11"/>
+                                    <constraint firstItem="col-Vw-011" firstAttribute="width" secondItem="col-Vw-005" secondAttribute="width" id="c04-12"/>
+                                    <constraint firstItem="div-Vw-014" firstAttribute="centerX" secondItem="col-Vw-005" secondAttribute="trailing" id="c04-13"/>
+                                    <constraint firstItem="div-Vw-014" firstAttribute="top" secondItem="sts-Vw-004" secondAttribute="top" constant="16" id="c04-14"/>
+                                    <constraint firstAttribute="bottom" secondItem="div-Vw-014" secondAttribute="bottom" constant="16" id="c04-15"/>
+                                    <constraint firstItem="div-Vw-015" firstAttribute="centerX" secondItem="col-Vw-008" secondAttribute="trailing" id="c04-16"/>
+                                    <constraint firstItem="div-Vw-015" firstAttribute="top" secondItem="sts-Vw-004" secondAttribute="top" constant="16" id="c04-17"/>
+                                    <constraint firstAttribute="bottom" secondItem="div-Vw-015" secondAttribute="bottom" constant="16" id="c04-18"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flw-Bt-016">
+                                <rect key="frame" x="16" y="360.66666666666669" width="174.5" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="flw-Ch-016"/>
+                                </constraints>
+                                <color key="backgroundColor" red="0.212" green="0.204" blue="0.639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Follow">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msg-Bt-017">
+                                <rect key="frame" x="202.5" y="360.66666666666669" width="174.5" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="msg-Ch-017"/>
+                                </constraints>
+                                <color key="backgroundColor" red="0.902" green="0.898" blue="0.969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Message">
+                                    <color key="titleColor" red="0.212" green="0.204" blue="0.639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="abt-Vw-018">
+                                <rect key="frame" x="16" y="432.66666666666669" width="361" height="116.66666666666667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="ABOUT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abt-Hd-019">
+                                        <rect key="frame" x="16" y="16" width="329" height="15.666666666666666"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                        <color key="textColor" red="0.43" green="0.43" blue="0.45" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Building banking apps in Swift. I like clean architecture, coffee and long walks in the mountains around Almaty." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abt-Lb-020">
+                                        <rect key="frame" x="16" y="39.666666666666664" width="329" height="61"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.11" green="0.11" blue="0.118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="abt-Hd-019" firstAttribute="top" secondItem="abt-Vw-018" secondAttribute="top" constant="16" id="c18-01"/>
+                                    <constraint firstItem="abt-Hd-019" firstAttribute="leading" secondItem="abt-Vw-018" secondAttribute="leading" constant="16" id="c18-02"/>
+                                    <constraint firstAttribute="trailing" secondItem="abt-Hd-019" secondAttribute="trailing" constant="16" id="c18-03"/>
+                                    <constraint firstItem="abt-Lb-020" firstAttribute="top" secondItem="abt-Hd-019" secondAttribute="bottom" constant="8" id="c18-04"/>
+                                    <constraint firstItem="abt-Lb-020" firstAttribute="leading" secondItem="abt-Vw-018" secondAttribute="leading" constant="16" id="c18-05"/>
+                                    <constraint firstAttribute="trailing" secondItem="abt-Lb-020" secondAttribute="trailing" constant="16" id="c18-06"/>
+                                    <constraint firstAttribute="bottom" secondItem="abt-Lb-020" secondAttribute="bottom" constant="16" id="c18-07"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.949" green="0.949" blue="0.969" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="avt-Vw-000" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="c00-01"/>
+                            <constraint firstItem="avt-Vw-000" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c00-02"/>
+                            <constraint firstItem="nam-Lb-002" firstAttribute="top" secondItem="avt-Vw-000" secondAttribute="bottom" constant="16" id="c00-03"/>
+                            <constraint firstItem="nam-Lb-002" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c00-04"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nam-Lb-002" secondAttribute="trailing" constant="16" id="c00-05"/>
+                            <constraint firstItem="sub-Lb-003" firstAttribute="top" secondItem="nam-Lb-002" secondAttribute="bottom" constant="4" id="c00-06"/>
+                            <constraint firstItem="sub-Lb-003" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c00-07"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sub-Lb-003" secondAttribute="trailing" constant="16" id="c00-08"/>
+                            <constraint firstItem="sts-Vw-004" firstAttribute="top" secondItem="sub-Lb-003" secondAttribute="bottom" constant="24" id="c00-09"/>
+                            <constraint firstItem="sts-Vw-004" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c00-10"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sts-Vw-004" secondAttribute="trailing" constant="16" id="c00-11"/>
+                            <constraint firstItem="flw-Bt-016" firstAttribute="top" secondItem="sts-Vw-004" secondAttribute="bottom" constant="16" id="c00-12"/>
+                            <constraint firstItem="flw-Bt-016" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c00-13"/>
+                            <constraint firstItem="msg-Bt-017" firstAttribute="leading" secondItem="flw-Bt-016" secondAttribute="trailing" constant="12" id="c00-14"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="msg-Bt-017" secondAttribute="trailing" constant="16" id="c00-15"/>
+                            <constraint firstItem="msg-Bt-017" firstAttribute="top" secondItem="flw-Bt-016" secondAttribute="top" id="c00-16"/>
+                            <constraint firstItem="msg-Bt-017" firstAttribute="width" secondItem="flw-Bt-016" secondAttribute="width" id="c00-17"/>
+                            <constraint firstItem="abt-Vw-018" firstAttribute="top" secondItem="flw-Bt-016" secondAttribute="bottom" constant="24" id="c00-18"/>
+                            <constraint firstItem="abt-Vw-018" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="c00-19"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="abt-Vw-018" secondAttribute="trailing" constant="16" id="c00-20"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aboutLabel" destination="abt-Lb-020" id="out-01"/>
+                        <outlet property="avatarLabel" destination="avt-Lb-001" id="out-02"/>
+                        <outlet property="followersLabel" destination="fol-Lb-009" id="out-03"/>
+                        <outlet property="followingLabel" destination="fwg-Lb-012" id="out-04"/>
+                        <outlet property="nameLabel" destination="nam-Lb-002" id="out-05"/>
+                        <outlet property="postsLabel" destination="pst-Lb-006" id="out-06"/>
+                        <outlet property="subtitleLabel" destination="sub-Lb-003" id="out-07"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
